@@ -26,10 +26,12 @@ class ThirdActivity : AppCompatActivity() {
 
         val gender = intent.getStringExtra("gender")
         val username = intent.getStringExtra("username")
+        val number = intent.getStringExtra("number")
 
         with(binding){
             edtUsername.setText(username)
             edtGender.setText(gender)
+            edtNumber.setText(number)
         }
     }
 }

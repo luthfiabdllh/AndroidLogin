@@ -23,6 +23,7 @@ class SecondActivity : AppCompatActivity() {
         val password = intent.getStringExtra("password")
         val gender = intent.getStringExtra("gender")
         val username = intent.getStringExtra("username")
+        val number = intent.getStringExtra("number")
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -45,6 +46,7 @@ class SecondActivity : AppCompatActivity() {
                     Intent(this@SecondActivity, ThirdActivity::class.java)
                 intentToThirdActivity.putExtra("gender", gender)
                 intentToThirdActivity.putExtra("username", username)
+                intentToThirdActivity.putExtra("number", number)
                 startActivity(intentToThirdActivity)
             }
         }

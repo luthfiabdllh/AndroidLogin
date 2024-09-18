@@ -82,7 +82,7 @@
         android:id="@+id/txt_bio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bio"
+        android:text="Number"
         android:textSize="12dp"
         android:fontFamily="@font/jakartar"
         android:layout_below="@id/edt_gender"
@@ -92,12 +92,12 @@
     </TextView>
 
     <EditText
-        android:id="@+id/edt_bio"
+        android:id="@+id/edt_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:hint="insert your bio"
-        android:textSize="14dp"
+        android:hint="insert your number"
+        android:textSize="20dp"
         android:fontFamily="@font/jakartam"
         android:layout_below="@id/txt_bio"
         android:layout_centerInParent="true"
@@ -108,7 +108,7 @@
         android:id="@+id/btn_next"
         android:layout_width="251dp"
         android:layout_height="40dp"
-        android:layout_below="@id/edt_bio"
+        android:layout_below="@id/edt_number"
         android:background="@drawable/mainbtn"
         android:text="next"
         android:textSize="18dp"

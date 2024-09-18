@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
                 intentToSecondActivity.putExtra("email", edtEmail.text.toString())
                 intentToSecondActivity.putExtra("password", edtPassword.text.toString())
                 intentToSecondActivity.putExtra("username", edtUsername.text.toString())
+                intentToSecondActivity.putExtra("number", edtNumber.text.toString())
                 intentToSecondActivity.putExtra("gender", gender)
                 startActivity(intentToSecondActivity)
             }
